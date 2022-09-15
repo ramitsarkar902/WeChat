@@ -6,7 +6,7 @@ const inputStyle =
 
 const Login = () => {
   return (
-    <div className="h-[100vh] w-full flex flex-col justify-center items-center bg-blue-300">
+    <div className="h-[100vh] w-full flex flex-col justify-center items-center">
       <div className=" h-[600px] w-[70%] sm:w-[50%] flex flex-col  bg-slate-50 justify-center items-center rounded-lg shadow-gray-600 hover:shadow-lg">
         <h3 className="text-3xl font-bold text-cyan-600">WeChat</h3>
         <input type="email" placeholder="email" className={inputStyle} />

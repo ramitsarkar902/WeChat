@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 function App() {
   return (
-    <div className="w-full h-[100vh]">
+    <div className="w-full h-[100vh] bg-blue-300">
      <BrowserRouter>
       <Routes>
         <Route path="/">
